@@ -1,3 +1,5 @@
+
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -115,7 +117,8 @@
 }
 
 body{
-    background-color: #ECE7E4;
+    background-color: FFFFF;
+    
 }
 
 .container{
@@ -144,7 +147,6 @@ body{
 
 .btn{
     background-color: #1B1A1A;
-    ;
     color: white;
     border: none;
     border-radius: 15px;
@@ -167,6 +169,84 @@ body{
 }
 
 .hero-section{
-    min-height: 720px;
+  display: flex;
+  background-color: #ECE7E4;
+}
 
+.description{
+  width:50%;
+}
+
+.logo{
+  color: #645C55;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 150px 100px 0px;
+}
+
+h1{
+  color: #1B1A1A;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 70.4px;
+  margin: 30px 100px 0px;
+}
+
+.paragraph{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #403E3B;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 100px 0px;
+}
+
+.more-info-btn{
+  border: none;
+  background-color: transparent;
+  color:#1B1A1A;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  margin: 30px 120px 0px;
+}
+
+.our-film{
+  max-width: 1440px;
+  margin:0 auto;
+  padding: 0 15px;
+  background-color: #FFFFFF;
+}
+
+.film{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #403E3B;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 100px 200px;
+}
+
+.our-film{
+  display: flex;
+  color:#403E3B;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.paragraphs{
+  margin-top: 100px;
+  margin-left: 50px;
+  flex: 0 0 70%;
+}
+
+.paragraphs p{
+  margin: 20px 0;
 }
