@@ -125,7 +125,6 @@ body{
     max-width: 1440px;
     margin:0 auto;
     padding: 0 15px;
-    background-color: #FFFFFF;
 }
 
 .nav-list{
@@ -217,36 +216,67 @@ h1{
 }
 
 .our-film{
-  max-width: 1440px;
-  margin:0 auto;
-  padding: 0 15px;
-  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container{
+  margin: 100px 200px;
+  height:582px;
+  width: 768px;
+  display: flex;
+  justify-content: space-between;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #403E3B;
 }
 
 .film{
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #403E3B;
   font-size: 32px;
   line-height: 38px;
-  margin: 100px 200px;
-}
-
-.our-film{
-  display: flex;
-  color:#403E3B;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-weight: 400;
 }
 
 .paragraphs{
-  margin-top: 100px;
-  margin-left: 50px;
-  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.paragraphs p{
-  margin: 20px 0;
+.profile{
+  width: 501.33px;
+  height: 100px;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  
+}
+
+.banner-section{
+  padding: 300px 0;
+  background-image: url('img/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h3{
+  font-weight: 400;
+  color:#403E3B;
+  letter-spacing: 2px;
+  line-height: 20px;
+  
+}
+.banner p{
+  font-size: 20px;
+  color: #645C55;
+  line-height: 24px;
 }
