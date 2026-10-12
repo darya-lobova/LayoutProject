@@ -437,3 +437,37 @@ span{
   letter-spacing: 2px;
   line-height: 24px;
 }
+
+.logos{
+  padding-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-footer{
+  display: flex;
+  background-color: #F7F7F7;
+  justify-content: space-between;
+}
+
+.section-footer div{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color:#645C55;
+  letter-spacing: 0;
+  line-height: 20px;
+
+  padding: 50px 100px;
+}
+
+.section-footer div p{
+  padding-top: 10px;
+}
+
+.social-media{
+  display: flex;
+  gap: 20px;
+  align-self: center;
+}
+
